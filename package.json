@@ -2,11 +2,9 @@
   "name": "express-node-server",
   "version": "1.0.0",
   "description": "Express Node Server in typescript",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "start": "tsc && node ./bin/www",
-    "dev": "nodemon index.ts",
-    "build": "tsc -p ."
+    "start": "node api/index.ts"
   },
   "author": "Sandeep Singh",
   "license": "ISC",
