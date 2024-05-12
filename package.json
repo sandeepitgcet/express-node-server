@@ -4,7 +4,7 @@
   "description": "Express Node Server in typescript",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node ./src/index.js",
+    "start": "node ./www",
     "dev": "nodemon index.ts",
     "build": "tsc -p ."
   },
