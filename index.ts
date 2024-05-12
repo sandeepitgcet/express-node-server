@@ -13,4 +13,8 @@ app.get("/home", (req: Request, res: Response, next: NextFunction) => {
   res.send("Hello Home World!");
 });
 
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`);
+});
+
 export default app;
