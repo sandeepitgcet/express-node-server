@@ -4,9 +4,8 @@
   "description": "Express Node Server in typescript",
   "main": "index.ts",
   "scripts": {
-    "start": "node index.ts",
-    "build": "tsc -p",
-    "dev": "nodemon index.ts"
+    "start": "node api/index.ts",
+    "dev": "nodemon api/index.ts"
   },
   "author": "Sandeep Singh",
   "license": "ISC",
